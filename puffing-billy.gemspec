@@ -26,6 +26,8 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency "rb-inotify"
   gem.add_development_dependency "rspec"
   gem.add_development_dependency "cucumber"
+  gem.add_development_dependency "minitest"
+  gem.add_development_dependency "capybara_minitest_spec"
   gem.add_runtime_dependency "eventmachine"
   gem.add_runtime_dependency "em-http-request"
   gem.add_runtime_dependency "eventmachine_httpserver"
